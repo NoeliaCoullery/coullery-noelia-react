@@ -1,16 +1,15 @@
 import './App.css';
-import Navbar from '../components/Navbar';
+import Navbar from './components/Navbar/Navbar.jsx';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx';
+import { categoriasNavbar } from './mock/mockData.js';
 
 function App() {
-  
+   const title = "Un espacio para que hagas lo que más te gusta";
 
   return (
      <>
-      <Navbar/>
-      <div>
-      <h1>DecoHome, hecho por vos.</h1>
-      <h2>Registrate</h2>
-      </div>
+      <Navbar categoriasNavbar={categoriasNavbar} title= "DecoHome, hecho por vos."/>
+      <ItemListContainer title={title}/>
       </>
   )
 }
