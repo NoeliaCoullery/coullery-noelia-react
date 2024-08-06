@@ -5,7 +5,10 @@
 }
 
 img {
-  width: 100px;;
+  width: 50%;
 }
 
-
+.h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}

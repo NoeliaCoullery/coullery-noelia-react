@@ -4,20 +4,27 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: rgb(215, 202, 175);
 }
 
 
 .footerItem{
- 
+    width: 100%;
     text-decoration: none;
-    color: green;
+    color: rgb(28, 185, 112);
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .parrFooter{
-    color: blueviolet;
+    color: rgb(28, 185, 112);
     width: 100%;
     height: 3rem;
     display: flex;
@@ -25,6 +32,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
 }
 
 

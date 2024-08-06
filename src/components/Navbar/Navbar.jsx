@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ title }) => {
     return(
-        <nav className="NavBar">
+        <nav className={styles.navItems}>
             <div>
                 <h1>{title}</h1>
                 <Link to= "/">

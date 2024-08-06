@@ -1,5 +1,7 @@
+import styles from "../Navbar/Navbar.module.css";
+
 const CartWidget = () => {
-    return <div>🛒8</div>
+    return <div className={styles.cartWidget}>🛒8</div>
 };
 
 export default CartWidget;
