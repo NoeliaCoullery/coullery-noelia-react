@@ -1,4 +1,4 @@
-export const categories = ["Inicio", "Todos los productos", "Maderas", "Pinturas", "Otros productos"];
+export const categories = ["Inicio", "Contacto", "Cuenta", "Todos los productos", "Maderas", "Pinturas", "Otros productos"];
 
 
 export const items = [
