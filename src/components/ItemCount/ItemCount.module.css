@@ -1,0 +1,44 @@
+.buttonAddToCart {
+    background-color: #008b8b;
+}
+
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.button {
+    background-color: #fca4a4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0.5rem;
+}
+
+
+.button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+
+.button:hover:not(:disabled) {
+    background-color: #fca4a4;
+}
+
+
+.quantity {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+

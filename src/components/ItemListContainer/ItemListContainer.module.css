@@ -3,6 +3,5 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    border: 5px dotted rgb(215, 202, 175);
     width: 100%;
 }

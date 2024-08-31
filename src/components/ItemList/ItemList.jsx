@@ -8,15 +8,15 @@
   if(!products) {
     return (
     <>
-    <h1 className={styles.h1} >DecoHome, hecho por vos.</h1>
+    <h1 className={styles.h1} ></h1>
     <div>No hay productos disponibles</div>
     </>
   )}
  
   return (
     <>
-    <h1 className="h1" >DecoHome, hecho por vos.</h1>
-    <div className={`${styles.container} d-flex`}>
+    <h1 className="h1" ></h1>
+    <div className={`${styles.container} d-flex justify-content-center align-items-center flex-wrap`}>
     {products.map((product) => {
       return <Item key={product.id} product={product}/>;
     })}
